@@ -30,3 +30,13 @@ div{
     padding: 10px;
     border-radius: 10px;
 }
+p{
+    color: var(--cerulean);
+    padding: 5px;
+}
+li{
+    color: var(--indigo-dye);
+}
+h2{
+    color: var(--white);
+}
