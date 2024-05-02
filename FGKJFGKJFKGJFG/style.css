@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing:antialiased
+}
+body{
+    background-color: var(--penn-blue);
+    height: 100svh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+:root{
+    --oxford-blue:#0A1128;
+    --penn-blue:#001F54;
+    --indigo-dye:#034078;
+    --cerulean:#1282A2;
+    --white:#FEFCFB;
+}
+h1{
+    color: var(--white);
+    background-color: var(--indigo-dye);
+    padding: 10px;
+    width: 220px;
+    border-radius: 10px;
+}
+div{
+    background-color: var(--oxford-blue);
+    padding: 10px;
+}
